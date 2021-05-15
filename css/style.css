@@ -1,0 +1,179 @@
+/* Estilos Gerais */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+}
+
+.btn {
+  border: 3px solid #fec63e;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 10px 30px;
+  color: #fec63e;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.btn:hover {
+  border-color: #fff;
+  color: #fff;
+}
+
+.subtitulo {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subtitulo::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 8px auto;
+}
+
+/* Header */
+.header {
+  position: fixed; /* Fica fixo ao rolar o scroll na página */
+  background-color: #fec63e;
+  width: 100%;
+  top: 0;
+  padding: 15px 0;
+  z-index: 10; /* Ficar por cima de tudo! */
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.header_menu ul li a {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  padding: 15px 0;
+  line-height: 20px;
+}
+
+.header_menu ul li a:hover {
+  color: #fff;
+}
+
+/* Introdução */
+
+.introducao {
+  width: 100%;
+  height: 380px;
+  background: url(../img/bg.jpg) no-repeat center;
+  background-size: cover;
+  margin-top: 96px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.introducao h1 {
+  font-size: 48px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.quote-externo {
+  max-width: 320px;
+  margin: 0 auto;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.quote-externo p {
+  font-style: italic;
+}
+
+.quote-externo p:before,
+.quote-externo p:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 14px auto 10px auto;
+}
+
+.quote-externo cite {
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 0.1em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.produtos {
+  padding: 60px 0;
+}
+
+.produtos_lista li {
+  text-align: center;
+  background-color: #fec63e;
+}
+
+.produtos_lista li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 20px;
+}
+
+.produtos_lista li h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 2px auto;
+}
+
+.produtos_lista li p {
+  padding: 10px 20px 20px 20px;
+}
+
+.produtos_icone {
+  padding: 20px;
+  background-color: #000;
+}
+
+.call {
+  padding-top: 40px;
+  text-align: center;
+  clear: both; /* Limpar para não ficar por cima das DIVs de cima */
+}
+
+.call p {
+  margin-bottom: 20px;
+}
+
+.call .btn:hover {
+  border-color: #000;
+  color: #000;
+}
