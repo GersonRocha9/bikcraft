@@ -293,7 +293,7 @@ img {
   padding: 20px 0;
 }
 
-.footer_historia h3 {
+.footer h3 {
   color: #fec63e;
   font-weight: bold;
   font-size: 18px;
@@ -302,7 +302,7 @@ img {
   letter-spacing: 0.1em;
 }
 
-.footer_historia h3::after {
+.footer h3::after {
   content: "";
   display: block;
   width: 60px;
@@ -311,7 +311,7 @@ img {
   margin: 8px 0;
 }
 
-.footer_historia p {
+.footer p {
   color: #fff;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 14px;
@@ -385,14 +385,14 @@ img {
 .copy {
   background: #fec63e;
   width: 100%;
+  height: 90;
   padding: 20px 0;
   float: left;
   margin-top: 10px;
-  text-align: center;
 }
 
-.copy .developer {
-  margin-top: 5px;
+.copy p {
+  color: #000;
 }
 
 .copy a {
