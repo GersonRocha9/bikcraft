@@ -13,6 +13,10 @@ img {
   display: block;
 }
 
+.header_menu ul li a.menu_ativo {
+  color: #fff;
+}
+
 .btn {
   border: 3px solid #fec63e;
   text-transform: uppercase;
@@ -46,6 +50,25 @@ img {
   height: 3px;
   background: #000;
   margin: 8px auto;
+}
+
+.subtitulo-interno {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+}
+
+.subtitulo-interno::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin-top: 20px;
 }
 
 /* Header */
@@ -238,6 +261,10 @@ img {
 
 .qualidade img {
   margin: 0 auto;
+}
+
+.qualidade_lista {
+  overflow: hidden;
 }
 
 .qualidade_lista li {
