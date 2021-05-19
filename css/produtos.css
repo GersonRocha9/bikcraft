@@ -72,9 +72,10 @@
 
 .orcamento {
   width: 100%;
-  height: 521px;
+  height: 620px;
   padding: 40px 0;
   background-color: #000;
+  overflow: auto;
 }
 
 .orcamento .subtitulo {
@@ -93,8 +94,46 @@
 .formulario .form_input {
   border: 3px solid #fec63e;
   margin-bottom: 20px;
+  background: none;
+  color: #fff;
+  width: 80%;
 }
 
 .formulario {
   color: #fff;
+}
+
+.subtitulo-info {
+  color: #fec63e;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-align: left;
+}
+
+.form_label,
+p {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 25px;
+  padding-right: 60px;
+  color: #fff;
+}
+
+p:nth-child(3) {
+  margin-bottom: 60px;
+}
+
+li {
+  color: #fff;
+  font-size: 12px;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.fundo-cinza {
+  background-color: #1d1d1d;
 }
