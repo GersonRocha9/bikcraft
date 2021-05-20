@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/blog.css" />
     <link rel="stylesheet" href="css/responsivo.css" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
     <title>Bikcraft - Blog Blog Seo</title>
   </head>
 
@@ -34,33 +37,35 @@
 
     <section class="introducao_interna">
       <div class="container">
-        <h1>Blog</h1>
-        <p>as principais notícias sobre bicicleta</p>
+        <h1 data-anime="400" class="fadeInDown">Blog</h1>
+        <p data-anime="800" class="fadeInDown">
+          as principais notícias sobre bicicleta
+        </p>
       </div>
     </section>
 
     <div class="container noticias">
-      <article class="grid-16 blog-post">
+      <article class="grid-16 blog-post fadeInDown" data-anime="1200">
         <h2>
           <a href="#">Corrida Copacabana</a>
         </h2>
       </article>
-      <article class="grid-16 blog-post">
+      <article class="grid-16 blog-post fadeInDown" data-anime="1400">
         <h2>
           <a href="#">Novo teste de corrida</a>
         </h2>
       </article>
-      <article class="grid-16 blog-post">
+      <article class="grid-16 blog-post fadeInDown" data-anime="1600">
         <h2>
           <a href="#">Nova bicicleta de corrida</a>
         </h2>
       </article>
-      <article class="grid-16 blog-post">
+      <article class="grid-16 blog-post fadeInDown" data-anime="1800">
         <h2>
           <a href="#">Nova bicicleta retrô</a>
         </h2>
       </article>
-      <article class="grid-16 blog-post">
+      <article class="grid-16 blog-post fadeInDown" data-anime="2000">
         <h2>
           <a href="#">Campeonato de BMX</a>
         </h2>
@@ -130,5 +135,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

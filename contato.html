@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/contato.css" />
     <link rel="stylesheet" href="css/responsivo.css" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
     <title>Bikcraft - Contato - 21 99999-9999</title>
   </head>
 
@@ -34,12 +37,12 @@
 
     <section class="introducao_interna">
       <div class="container">
-        <h1>Contato</h1>
-        <p>tire suas dúvidas com a gente</p>
+        <h1 data-anime="400" class="fadeInDown">Contato</h1>
+        <p data-anime="800" class="fadeInDown">tire suas dúvidas com a gente</p>
       </div>
     </section>
 
-    <section class="orcamento">
+    <section class="orcamento fadeInLeft" data-anime="1200">
       <div class="container">
         <div class="grid-8 formulario">
           <form action="submit">
@@ -76,7 +79,10 @@
           </form>
         </div>
 
-        <div class="grid-8 informacoes redes-sociais">
+        <div
+          class="grid-8 informacoes redes-sociais fadeInRight"
+          data-anime="1600"
+        >
           <h3 class="subtitulo-info">Dados</h3>
           <p>+55 21 9999-9999</p>
           <p>contato@bikcraft.com</p>
@@ -168,5 +174,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

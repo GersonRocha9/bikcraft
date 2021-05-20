@@ -431,3 +431,70 @@ img {
   font-weight: bold;
   color: #3f0092;
 }
+
+/*JavaScript*/
+
+.js [data-slide] {
+  position: relative;
+}
+
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 1;
+}
+
+.js [data-slide-nav] {
+  /*Selecionado os botões que foram criados com a nav:true*/
+  margin-top: 20px;
+  text-align: center;
+}
+
+.js [data-slide-nav] button {
+  /*Estilizando os botões*/
+  padding: 4px;
+  width: 12px;
+  height: 12px;
+  border: none;
+  background-color: #1f1f1f;
+  border-radius: 20px;
+  margin-right: 6px;
+  overflow: hidden;
+  text-indent: -99px;
+}
+
+.js [data-slide-nav] button.active {
+  /*Colocando a cor para o botão que estiver ativo*/
+  background-color: #fec63e;
+}
+
+.js [data-anime] {
+  opacity: 0;
+}
+
+.js .fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+
+.js .fadeInUp {
+  transform: translate3d(0, 20px, 0);
+}
+.js .fadeInRight {
+  transform: translate3d(20px, 0, 0);
+}
+.js .fadeInLeft {
+  transform: translate3d(-20px, 0, 0);
+}
+
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: transform 0.8s, opacity 0.8s;
+}

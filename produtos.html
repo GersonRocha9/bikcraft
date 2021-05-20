@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/produtos.css" />
     <link rel="stylesheet" href="css/responsivo.css" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    ''
     <title>
       Bikcraft - Produtos - Conheça as linhas Passeio, Retrô e Esporte
     </title>
@@ -36,12 +40,14 @@
 
     <section class="introducao_interna">
       <div class="container">
-        <h1>Produtos</h1>
-        <p>conheça todos os nossos produtos</p>
+        <h1 data-anime="400" class="fadeInDown">Produtos</h1>
+        <p data-anime="800" class="fadeInDown">
+          conheça todos os nossos produtos
+        </p>
       </div>
     </section>
 
-    <section class="container">
+    <section class="container fadeInDown" data-anime="1200">
       <section class="produto_item">
         <div class="grid-11">
           <img
@@ -198,5 +204,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

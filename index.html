@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/grid.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsivo.css" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
     <title>Bikcraft</title>
   </head>
 
@@ -33,19 +36,19 @@
 
     <section class="introducao">
       <div class="container">
-        <h1>Bicicletas Feitas a Mão</h1>
-        <blockquote class="quote-externo">
+        <h1 data-anime="400" class="fadeInDown">Bicicletas Feitas a Mão</h1>
+        <blockquote class="quote-externo fadeInDown" data-anime="800">
           <p>
             "não tenha nada em sua casa que você não considere útil ou acredita
             ser bonito."
           </p>
           <cite>William Morris</cite>
         </blockquote>
-        <a href="produtos.html" class="btn">Orçamento</a>
+        <a href="produtos.html" class="btn" data-anime="1200">Orçamento</a>
       </div>
     </section>
 
-    <section class="produtos container">
+    <section class="produtos container fadeInDown" data-anime="1600">
       <h2 class="subtitulo">Produtos</h2>
       <ul class="produtos_lista">
         <li class="grid-1-3">
@@ -198,5 +201,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
