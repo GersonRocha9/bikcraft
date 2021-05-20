@@ -11,6 +11,7 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .header_menu ul li a.menu_ativo {
@@ -158,6 +159,10 @@ img {
 
 .produtos {
   padding: 60px 0;
+}
+
+.produtos_lista img {
+  margin: 0 auto;
 }
 
 .produtos_lista li {

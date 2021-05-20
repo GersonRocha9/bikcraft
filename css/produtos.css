@@ -99,6 +99,16 @@
   width: 80%;
 }
 
+.formulario label,
+.formulario p,
+.informacoes p {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 25px;
+  padding-right: 60px;
+  color: #fff;
+}
+
 .formulario {
   color: #fff;
 }
@@ -114,8 +124,7 @@
   text-align: left;
 }
 
-.form_label,
-p {
+.form_label p {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 18px;
   line-height: 25px;
