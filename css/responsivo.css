@@ -105,19 +105,23 @@
   }
 
   .produto_item {
+    /*Ajuste da margem de baixo*/
     margin-bottom: 10px;
   }
 
   .produtos_icone {
+    /*Ajuste no tamanho dos ícones na página Produtos*/
     margin-top: 60px;
     padding: 40px;
   }
 
   .produto_item_ultimo {
+    /*Tirando a margem de baixo para uma melhor leitura em smartphones*/
     margin-bottom: 0;
   }
 
   .quote_clientes {
+    /*Ajuste no tamanho do quadro de texto*/
     width: 300px;
   }
 
@@ -126,6 +130,7 @@
   }
 
   .orcamento {
+    /*Ajuste na altura da div para melhor adaptação ao smartphone*/
     height: 930px;
   }
 }
