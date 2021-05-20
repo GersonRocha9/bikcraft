@@ -133,4 +133,12 @@
     /*Ajuste na altura da div para melhor adaptação ao smartphone*/
     height: 930px;
   }
+
+  .noticias {
+    padding: 40px 0;
+  }
+
+  .blog-post {
+    margin-bottom: 0;
+  }
 }

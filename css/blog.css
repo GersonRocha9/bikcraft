@@ -53,3 +53,11 @@
 .noticias article:nth-child(odd) {
   background-color: #fec63e;
 }
+
+.blog-post a::after {
+  content: "→";
+  width: 28px;
+  height: 32px;
+  float: right;
+  display: block;
+}
