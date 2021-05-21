@@ -45,23 +45,27 @@
     <section class="orcamento fadeInLeft" data-anime="1200">
       <div class="container">
         <div class="grid-8 formulario">
-          <form action="submit">
+          <form
+            id="form_orcamento"
+            method="POST"
+            action="#"
+          >
             <div class="form_nome">
               <label for="nome" class="form_label">Nome</label>
               <br />
-              <input type="text" class="form_input" />
+              <input type="text" class="form_input" name="name" required />
             </div>
 
             <div class="form_email">
               <label for="email" class="form_label">E-mail</label>
               <br />
-              <input type="email" class="form_input" />
+              <input type="email" class="form_input" name="email" required />
             </div>
 
             <div class="form_telefone">
               <label for="telefone" class="form_label">Telefone</label>
               <br />
-              <input type="text" class="form_input" />
+              <input type="text" class="form_input" name="telefone" />
             </div>
             <div class="form_mensagem">
               <label for="mensagem" class="form_label">Mensagem</label>
@@ -72,10 +76,11 @@
                 cols="40"
                 rows="10"
                 class="form_input"
+                required
               ></textarea>
             </div>
 
-            <a href="#" class="btn">Enviar</a>
+            <button class="btn" type="submit">Enviar</button>
           </form>
         </div>
 
